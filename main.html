@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="input"> 
+        <br>
+
+    <br>
+    <button class="command" onclick="cleared()"> C</button>
+    <br><br>
+    <button class="command" onclick="showItem('+')"> +</button>
+    <button onclick="showItem('7')">7</button>
+    <button onclick="showItem('8')">8</button>
+    <button onclick="showItem('9')">9</button>  
+    <br>   <br>    
+    <button class="command" onclick="showItem('-')"> -</button>
+    <button onclick="showItem('4')">4</button>
+    <button onclick="showItem('5')">5</button>      
+    <button onclick="showItem('6')">6</button>
+    <br><br>   
+    <button class="command" onclick="showItem('*')"> *</button>
+    <button onclick="showItem('1')">1</button>      
+    <button onclick="showItem('2')">2</button>
+    <button onclick="showItem('3')">3</button>
+    <br><br>   
+    <button class="command" onclick="showItem('/')">/</button>
+
+    <button onclick="calculate()">=</button>
+    <button onclick="showItem('0')">0</button>
+    <br>   </br>   
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
